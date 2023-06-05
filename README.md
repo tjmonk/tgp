@@ -45,7 +45,7 @@ repo init -u https://github.com/tjmonk/tgp -b main
 ## Sync (download) Components
 
 ```
-repo sync
+repo sync -c -j8
 ```
 
 ## Build and Install everything
