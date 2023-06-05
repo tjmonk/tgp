@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://github.com" />
+  <default revision="main" remote="origin" />
+
+  <project path="varserver" name="tjmonk/varserver" remote="origin" />
+  <project path="varcreate" name="tjmonk/varcreate" remote="origin" />
+  <project path="execvars" name="tjmonk/execvars" remote="origin" />
+  <project path="filevars" name="tjmonk/filevars" remote="origin" />
+  <project path="libtjson" name="tjmonk/libtjson" remote="origin" />
+  <project path="loadconfig" name="tjmonk/loadconfig" remote="origin" />
+  <project path="actions" name="tjmonk/actions" remote="origin" />
+  <project path="statemachine" name="tjmonk/statemachine" remote="origin" />
+  <project path="procmon" name="tjmonk/procmon" remote="origin" />
+  <project path="tgp" name="tjmonk/tgp" remote="origin" />
+  <project path="mqtt_vars" name="tjmonk/mqtt_vars" remote="origin" />
+
+  <project path="paho_mqtt" name="eclipse/paho.mqtt.c" remote="github" revision="master" />
+  <project path="libgpiod" name="pub/scm/libs/libgpiod/libgpiod" remote="kernel" revision="dfc5d361e6748d5f48b706e5c4ac949d133b5470" />
+  <project path="azure-iot-sdk" name="Azure/azure-iot-sdk-c" remote="github" revision="main" />
+  <project path="libwebsockets" name="warmcat/libwebsockets" remote="github" revision="main" />
+
+
+</manifest>
