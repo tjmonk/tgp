@@ -14,7 +14,7 @@
   <project path="statemachine" name="tjmonk/statemachine" remote="origin" />
   <project path="procmon" name="tjmonk/procmon" remote="origin" />
   <project path="tgp" name="tjmonk/tgp" remote="origin" />
-  <project path="mqtt_vars" name="tjmonk/mqtt_vars" remote="origin" />
+  <project path="mqttvars" name="tjmonk/mqttvars" remote="origin" />
 
   <project path="paho_mqtt" name="eclipse/paho.mqtt.c" remote="origin" revision="master" />
   <project path="libgpiod" name="pub/scm/libs/libgpiod/libgpiod" remote="kernel" revision="dfc5d361e6748d5f48b706e5c4ac949d133b5470" />

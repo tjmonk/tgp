@@ -19,7 +19,7 @@ cd $basedir
 # Build TGP components
 ################################################################################
 components="varserver libtjson libvaraction varcreate execvars filevars
-procmon"
+procmon mqttvars"
 
 for component in $components
 do
