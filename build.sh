@@ -9,7 +9,7 @@ basedir=`pwd`
 
 # Paho-Mqtt
 cd paho_mqtt
-mkdir build && cd build
+mkdir -p build && cd build
 cmake ..
 make
 sudo make install
