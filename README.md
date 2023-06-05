@@ -27,6 +27,15 @@ $ curl -s https://storage.googleapis.com/git-repo-downloads/repo.asc | gpg --ver
 $ repo version
 ```
 
+## Set up a working directory
+
+Use whatever name you want for your working directory, but in this case
+we are using 'tgp' for "The Gateway Project"
+
+```
+$ mkdir ~/tgp && cd ~/tgp
+```
+
 ## Initialization
 
 ```
@@ -37,5 +46,11 @@ $ repo init -u https://github.com/tjmonk/tgp -b main
 
 ```
 $ repo sync
+```
+
+## Build and Install everything
+
+```
+$ ./tgp/build.sh
 ```
 
