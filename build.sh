@@ -4,22 +4,11 @@
 basedir=`pwd`
 
 ################################################################################
-# Build external dependencies
-################################################################################
-
-# Paho-Mqtt
-cd paho_mqtt
-mkdir -p build && cd build
-cmake ..
-make
-sudo make install
-cd $basedir
-
-################################################################################
 # Build TGP components
 ################################################################################
-components="varserver libtjson libvaraction varcreate execvars filevars
-procmon mqttvars"
+components="varserver libtjson libvaraction libiotclient libluavars varcreate
+execvars filevars procmon mqttvars actions ads7830 fcgi_vars gpioctrl iothub
+iotexec iotsend lcd1602 loadconfig mqttvars neurio procmon statemachine tcc "
 
 for component in $components
 do

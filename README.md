@@ -54,3 +54,32 @@ repo sync -c -j8
 ./tgp/build.sh
 ```
 
+## The Gateway Project Components
+
+| Component | Description |
+|---|---|
+| actions | action scripts |
+| ads7830 | ADS7830 I2C 8-bit Analog to Digital Inputs |
+| execvars | Associate executable commands with VarServer Variables |
+| fcgi_vars | Fast CGI interface to VarServer Variables |
+| filevars | Associate file content with VarServer Variables |
+| gpioctrl | Associate GPIO pins with VarServer Variables |
+| iotexec | Remote IOT System Calls for Azure IOT Hub |
+| iothub | Azure IOT Hub Interface |
+| iotsend | Send messages to Azure IOT Hub |
+| lcd1602 | LCD 16x2 Alphanumeric Display Interface for VarServer |
+| libiotclient | Azure IOT Hub Client Library |
+| libluavars | Lua Interface for VarServer variables and events |
+| libtjson | JSON Parser using flex/bison |
+| libvaraction | VarServer Actions Library for building actions parse trees |
+| loadconfig | Configuration Management Utility for VarServer |
+| mqttvars | VarServer MQTT Interface |
+| neurio | Neurio Home Energy Monitor VarServer Interface |
+| procmon | Process Monitor Service |
+| statemachine | Finite State Machine engine with VarServer Interface |
+| tcc | C language Scripting with VarServer Interface |
+| tgp | The Gateway Project (repo manifest) |
+| varcreate | Create Variables for the VarServer from a JSON file |
+| varserver | Pub/Sub Key Value Store |
+
+
