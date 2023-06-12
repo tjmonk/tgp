@@ -62,6 +62,7 @@ repo sync -c -j8
 | [ads7830](https://github.com/tjmonk/ads7830) | ADS7830 I2C 8-bit Analog to Digital Inputs |
 | [execvars](https://github.com/tjmonk/execvars) | Associate executable commands with VarServer Variables |
 | [fcgi_vars](https://github.com/tjmonk/fcgi_vars) | Fast CGI interface to VarServer Variables |
+| [fcgi_test](https://github.com/tjmonk/fcgi_test) | Fast CGI Test interface |
 | [filevars](https://github.com/tjmonk/filevars) | Associate file content with VarServer Variables |
 | [gpioctrl](https://github.com/tjmonk/gpioctrl) | Associate GPIO pins with VarServer Variables |
 | [iotexec](https://github.com/tjmonk/iotexec) | Remote IOT System Calls for Azure IOT Hub |

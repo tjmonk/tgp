@@ -8,6 +8,7 @@
   <project path="ads7830" name="tjmonk/ads7830" remote="origin" />
   <project path="execvars" name="tjmonk/execvars" remote="origin" />
   <project path="fcgi_vars" name="tjmonk/fcgi_vars" remote="origin" />
+  <project path="fcgi_test" name="tjmonk/fcgi_test" remote="origin" />
   <project path="filevars" name="tjmonk/filevars" remote="origin" />
   <project path="gpioctrl" name="tjmonk/gpioctrl" remote="origin" />
   <project path="iotexec" name="tjmonk/iotexec" remote="origin" />
