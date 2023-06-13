@@ -20,9 +20,9 @@ on any POSIX compliant operating system.
 
 The Gateway Project consists of components for:
 
-- configuration management
-- process management
-- hardware interfaces
+- Configuration Management
+- Process Management
+- Hardware Interfaces
 - Web services
 - Cloud interaction
 - Scripting / State Machine / Actions processing
