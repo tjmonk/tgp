@@ -1,18 +1,49 @@
 # tgp
-The Gateway Project Manifest
+The Gateway Project
 
 ## Overview
 
-The TGP manifest is for use with the git repo project.
+The Gateway Project (TGP) is a collection of loosely coupled middleware
+micro-services which are building blocks for constructing a highly efficient
+general purpose multi-process application solution.
 
-## Installation via apt
+The core of the gateway project is VarServer - a highly efficient
+user-space publish/subscribe key/value data store which enables inter-process
+communication between the otherwise loosely coupled system components.
+
+Each component in the system can exist independently of the others. They
+can be built, documented and tested independently of each other.  The only
+compile-time dependency they have is the VarServer interface.
+
+The tgp components are written in C and POSIX compliant.  They can be run
+on any POSIX compliant operating system.
+
+The Gateway Project consists of components for:
+
+- configuration management
+- process management
+- hardware interfaces
+- Web services
+- Cloud interaction
+- Scripting / State Machine / Actions processing
+
+The diagram below shows the current suite of TGP components.
+
+![tgp-components](tgp-components.png)
+
+The Gateway Project uses the android repo project to manage
+components across multiple github repositories.  To work with The
+Gateway Project, install repo as described below, and pull the
+code using `repo init` and `repo sync` commands as shown below.
+
+## Installation of repo via apt
 
 ```
 sudo apt-get update
 sudo apt-get install repo
 ```
 
-## Manual installation (if apt-get does not work)
+## Manual installation of repo (if apt-get does not work)
 
 ```
 export REPO=$(mktemp /tmp/repo.XXXXXXXXX)
@@ -55,6 +86,9 @@ repo sync -c -j8
 ```
 
 ## The Gateway Project Components
+
+The gateway project components are listed below. Click on the component name
+to navigate to its github repository.
 
 | Component | Description |
 |---|---|
