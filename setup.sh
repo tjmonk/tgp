@@ -22,7 +22,9 @@ sudo apt-get install -y \
     autoconf-archive \
     automake \
     libtool \
-    lighttpd
+    lighttpd \
+    flex \
+    bison
 
 ################################################################################
 # Build Azure IOT SDK library
