@@ -25,7 +25,10 @@ sudo apt-get install -y \
     libtool \
     lighttpd \
     flex \
-    bison
+    bison \
+    lua5.4 \
+    lua5.4-dev
+
 
 ################################################################################
 # Build Paho MQTT library

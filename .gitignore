@@ -53,3 +53,4 @@ dkms.conf
 build/
 azure-iot-sdk-c/
 fcgi2/
+depends/
