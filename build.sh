@@ -4,3 +4,4 @@ cmake ..
 make
 sudo make install
 cd ..
+sudo ldconfig
