@@ -10,6 +10,7 @@
   <project path="fcgi_proc" name="tjmonk/fcgi_proc" remote="origin" />
   <project path="fcgi_test" name="tjmonk/fcgi_test" remote="origin" />
   <project path="fcgi_vars" name="tjmonk/fcgi_vars" remote="origin" />
+  <project path="fcgi_auth" name="tjmonk/fcgi_auth" remote="origin" />
   <project path="filevars" name="tjmonk/filevars" remote="origin" />
   <project path="gpioctrl" name="tjmonk/gpioctrl" remote="origin" />
   <project path="iotexec" name="tjmonk/iotexec" remote="origin" />
@@ -19,6 +20,8 @@
   <project path="libiotclient" name="tjmonk/libiotclient" remote="origin" />
   <project path="libluavars" name="tjmonk/libluavars" remote="origin" />
   <project path="libtjson" name="tjmonk/libtjson" remote="origin" />
+  <project path="libtjwt" name="tjmonk/libtjwt" remote="origin" />
+  <project path="sessionmgr" name="tjmonk/sessionmgr" remote="origin" />
   <project path="libvaraction" name="tjmonk/libvaraction" remote="origin" />
   <project path="loadconfig" name="tjmonk/loadconfig" remote="origin" />
   <project path="mqttvars" name="tjmonk/mqttvars" remote="origin" />
@@ -26,7 +29,12 @@
   <project path="procmon" name="tjmonk/procmon" remote="origin" />
   <project path="statemachine" name="tjmonk/statemachine" remote="origin" />
   <project path="tcc" name="tjmonk/tcc" remote="origin" />
+  <project path="templatesvc" name="tjmonk/templatesvc" remote="origin" />
   <project path="tgp" name="tjmonk/tgp" remote="origin" />
   <project path="varcreate" name="tjmonk/varcreate" remote="origin" />
   <project path="varserver" name="tjmonk/varserver" remote="origin" />
+  <project path="varmsg" name="tjmonk/varmsg" remote="origin" />
+  <project path="udpt" name="tjmonk/udpt" remote="origin" />
+  <project path="savesvc" name="tjmonk/savesvc" remote="origin" />
+  <project path="manifest" name="tjmonk/manifest" remote="origin" />
 </manifest>
