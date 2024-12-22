@@ -82,13 +82,13 @@ repo sync -c -j8
 ## Set up pre-requisite tools
 
 ```
-./tgp/setup.sh
+cd tgp && ./setup.sh
 ```
 
 ## Build and Install everything
 
 ```
-./tgp/build.sh
+./build.sh
 ```
 
 ## The Gateway Project Components
