@@ -91,6 +91,17 @@ cd tgp && ./setup.sh
 ./build.sh
 ```
 
+## Update the library search path
+```
+sudo ldconfig
+```
+
+## Create a varserver group and start the varserver
+```
+sudo groupadd varserver
+varserver &
+```
+
 ## The Gateway Project Components
 
 The gateway project components are listed below. Click on the component name
