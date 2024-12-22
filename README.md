@@ -40,7 +40,7 @@ code using `repo init` and `repo sync` commands as shown below.
 
 ```
 sudo apt-get update
-sudo apt-get install repo cmake build-essential
+sudo apt-get install repo
 ```
 
 ## Manual installation of repo (if apt-get does not work)
